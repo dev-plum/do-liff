@@ -20,7 +20,7 @@ export default function Home(props) {
             className="home__title__link"
             href="https://developers.line.biz/en/docs/liff/overview/"
           >
-            LIFF Starter! {idToken}
+            LIFF Starter! {process.env.LIFF_ID}
           </a>
         </h1>
         <div className="home__badges">
