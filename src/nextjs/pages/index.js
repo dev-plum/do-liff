@@ -15,7 +15,7 @@ export default function Home(props) {
       </Head>
       <div className="home">
         <h1 className="home__title">
-          Welcome to <br />
+          TEST <br />
           <a
             className="home__title__link"
             href="https://developers.line.biz/en/docs/liff/overview/"
