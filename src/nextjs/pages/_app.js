@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         });
         liff
         .init({
-          liffId: "1657680615-z871Zkk4", // Use own liffId
+          liffId: process.env.LIFF_ID, // Use own liffId
         })
         .then(() => {
           const idToken = liff.getIDToken();
